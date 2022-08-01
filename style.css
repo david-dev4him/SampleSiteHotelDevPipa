@@ -115,12 +115,26 @@ h2 {
   width: 100%;
 } 
 
+.contact {
+  display: flex;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #c4c4c4;
+  text-align: center;
+  padding: 20px 0;
+}
+
 @media(max-width: 768px) {
-  .city {
+  .city, .contact {
     flex-direction: column-reverse;
   }
 
-  .services-content{
+  .services-content {
     flex-direction: column;
   }
   
